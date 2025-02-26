@@ -1,3 +1,4 @@
+/** step1. react로만 화면만들기 */
 function LikeButton() {
     const [liked, setLiked] = React.useState(false); // useState 컴포넌트 상태값 추가할 때 사용 
     const text = liked ? '좋아요 취소' : '좋아요';
